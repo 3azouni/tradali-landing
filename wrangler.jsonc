@@ -1,0 +1,19 @@
+{
+  "name": "tradali-landing",
+  "account_id": "3df72b92a93a4d323ab77d72fd28d48b",
+  "compatibility_date": "2026-09-12",
+  "main": "src/index.js",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "not_found_handling": "single-page-application",
+    "html_handling": "auto-trailing-slash"
+  },
+  "routes": [
+    { "pattern": "tradali.com", "custom_domain": true },
+    { "pattern": "www.tradali.com", "custom_domain": true }
+  ]
+}
